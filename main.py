@@ -3,7 +3,7 @@
 import os
 
 def main():
-    print os.name
+    print "os.name: {}".format(os.name)
 
 if __name__ == '__main__':
     main()
